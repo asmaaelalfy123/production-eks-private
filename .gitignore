@@ -1,0 +1,16 @@
+# Terraform
+.terraform/
+*.tfstate
+*.tfstate.*
+*.tfplan
+*.tfvars
+!terraform.tfvars.example
+.terraform.lock.hcl
+
+# Credentials / keys
+*.pem
+*.key
+*.ovpn
+
+# OS
+.DS_Store
