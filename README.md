@@ -2,6 +2,7 @@
 
 Deploy a **fully private Amazon EKS cluster** accessible only through a self-hosted OpenVPN server, with Prometheus + Grafana monitoring and private DNS — all automated with Terraform.
 
+
 ![Architecture Diagram](architecture.png)
 
 ## What Gets Deployed
