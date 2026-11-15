@@ -9,6 +9,7 @@ resource "kubernetes_namespace" "monitoring" {
   depends_on = [module.eks]
 }
 
+
 ###############################################################################
 # kube-prometheus-stack (Prometheus + Grafana)
 ###############################################################################
