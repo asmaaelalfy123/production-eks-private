@@ -12,6 +12,7 @@ apt-get install -y -o Dpkg::Options::='--force-confdef' -o Dpkg::Options::='--fo
 echo 'net.ipv4.ip_forward = 1' >> /etc/sysctl.conf
 sysctl -p
 
+
 # ── PKI setup ──────────────────────────────────────────────────────────────
 EASY_RSA="/etc/openvpn/easy-rsa"
 mkdir -p "$EASY_RSA"
