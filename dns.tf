@@ -35,3 +35,5 @@ resource "aws_route53_record" "grafana" {
   ttl     = 300
   records = [data.kubernetes_service.grafana.status[0].load_balancer[0].ingress[0].hostname]
 }
+
+
