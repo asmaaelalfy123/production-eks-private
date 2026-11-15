@@ -3,3 +3,4 @@ project_name           = "eks-private"
 ssh_key_name           = "my-key-pair"        # Your existing EC2 key pair name
 admin_ingress_cidr     = "203.0.113.10/32"    # Your public IP (curl ifconfig.me)
 grafana_admin_password = "YourSecurePassword"  # Change this!
+
